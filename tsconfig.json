@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "system",
+    "jsx": "react",
+    "moduleResolution": "classic",
+    "lib": ["es2015", "esnext.asynciterable", "es2017", "dom"],
+    "outFile": "./dist/my-app.js",
+    "rootDir": "./src/",
+    "baseUrl": "./",
+    "types": [],
+    "typeRoots": [
+      "./type",
+    ],
+  },
+}
