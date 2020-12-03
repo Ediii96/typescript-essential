@@ -1,0 +1,12 @@
+{
+  "name": "typescript-essential",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "open-cli index.html",
+    "dev": "tsc -w"
+  },
+  "devDependencies": {
+    "open-cli": "^6.0.1",
+    "typescript": "^4.1.2"
+  }
+}
