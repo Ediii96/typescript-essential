@@ -487,7 +487,6 @@ declare namespace React {
 
         constructor(props: Readonly<P>);
         /**
-         * @deprecated
          * @see https://reactjs.org/docs/legacy-context.html
          */
         constructor(props: P, context?: any);

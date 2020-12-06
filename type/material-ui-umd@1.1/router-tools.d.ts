@@ -8,7 +8,7 @@ declare namespace router {
         const Router: React.ForwardRefExoticComponent<{
             children?: any;
             guardFallback?: string;
-            currentUrl?: string;
+            initialUrl?: string;
         } & React.RefAttributes<unknown>>;
     }
 }

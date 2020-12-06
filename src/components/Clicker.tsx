@@ -4,10 +4,6 @@ namespace app {
     TextField,
   } = material.core;
 
-  const {
-
-  } = material.icons;
-
   export const Clicker = () => <button>1234</button>
 
 } // namespace app

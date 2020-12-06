@@ -1,7 +1,17 @@
 namespace app {
 
+  const {
+    //
+  } = React;
+
+  const {
+    Scaffold,
+  } = form;
+
   const App = () => (
-    <Clicker/>
+    <Scaffold>
+      <Router/>
+    </Scaffold>
   );
 
   export const main = () => ReactDOM.render(<App/>, document.querySelector('#mount-point'));
